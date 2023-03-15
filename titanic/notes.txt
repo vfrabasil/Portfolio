@@ -1,0 +1,25 @@
+MISSING VALUES:
+-AGE -> mean
+-CABIN -> a lot (cant drop) create new value 'unkown' 
+-EMBARKED -> few (use the most common)
+
+MISSING VALUES(USING FEATURE ENG):
+-from NAME create new feature TITLE
+-AGE -> using the TITLE, assign a mean from that title +/- std
+-CABIN -> create new feature call DECK based in the first letter of cabin
+-EMBARKED -> based on mean fare in each port, assign the port most likely using the fare of the missing value
+-TICKET -> same TICKET / FARE / EMBARKED -> same DECK
+
+DROP USELESS VARIABLES:
+-PASSANGERID
+-TICKET
+-CABIN
+-NAME
+
+CONVERT:
+-SEX -> 0/1
+-EMBARKED -> 0/1/2
+
+-AGE -> float to int -> group range
+-FARE -> float to int -> group range
+-TITTLE -> group by Mr, Miss, Mrs, Master, Other

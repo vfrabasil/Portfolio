@@ -1,0 +1,12 @@
+NLP/__pycache__/
+__pycache__/
+dataexplorer/__pycache__/
+heatmap/__pycache__/
+home/__pycache__/
+stormbound/__pycache__/
+titanic/__pycache__/
+datapipe/__pycache__/
+datapipe/requirements.txt
+datapipe/ingest.py
+datapipe/mockAPI.py
+
