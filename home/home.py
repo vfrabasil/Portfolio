@@ -34,7 +34,7 @@ def app():
 
     title('VICTOR FRABASIL')
     #subsubtitle('🔹 portfolio 🔹')
-    subtitle('Data Analysis 🔹 Data Science 🔹 Python Developer')
+    subtitle('Software Engineer 🔹 Python/C++ Developer 🔹 Data Analyst ')
     st.write("##")
     #sep()
 
