@@ -5,10 +5,10 @@ from multiapp import MultiApp
 
 # import your app modules here:
 from home import home
-from heatmap import heatmap
+#1 from heatmap import heatmap
 from dataexplorer import explorer
 from stormbound import storm
-from NLP import ner
+#1 from NLP import ner
 from titanic import titanic
 from geoespacial import flujo
 from datapipe import etlDemo
@@ -25,10 +25,10 @@ app = MultiApp()
 
 # Add all your application here
 app.add_app("🏠 HOME", home.app)
-app.add_app("🎨 Python Heatmaps (Visualization Libraries)", heatmap.app)
+#1 app.add_app("🎨 Python Heatmaps (Visualization Libraries)", heatmap.app)
 app.add_app("🔬 Transactional Data Explorer", explorer.app)
 app.add_app("🎮 Game Statistics (EDA/Interactive Dashboards)", storm.app)
-app.add_app("📑 Text Language Processing (NLP/spaCy)", ner.app)
+#1 app.add_app("📑 Text Language Processing (NLP/spaCy)", ner.app)
 app.add_app("🚢 Titanic Survival Analysis and Prediction (EDA/ML/Feature Eng.)", titanic.app)
 app.add_app("📈 Variacion Cotizacion USD (Data Pipeline/ETL/API/Time Series forecasting)", etlDemo.app)
 app.add_app("🏢 Venta de Propiedades en Buenos Aires (EDA/ML/FastAPI)", prop.app)
